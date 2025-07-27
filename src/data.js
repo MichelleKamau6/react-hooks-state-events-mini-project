@@ -1,6 +1,6 @@
-export const CATEGORIES = ["All", "Code", "Food", "Money", "Misc"];
+const CATEGORIES = ["All", "Code", "Food", "Money", "Misc"];
 
-export const TASKS = [
+const TASKS = [
   {
     text: "Buy rice",
     category: "Food",
@@ -30,3 +30,5 @@ export const TASKS = [
     category: "Misc",
   },
 ];
+export { CATEGORIES, TASKS };
+
